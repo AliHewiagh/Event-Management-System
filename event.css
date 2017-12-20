@@ -1,0 +1,773 @@
+@charset "utf-8";
+* {
+	margin:0px;
+	padding:0px;	
+}
+
+
+body{
+
+	background-image: url(images/bg_img.jpg);
+  
+
+
+}
+
+
+
+
+.container{
+	background-color: transparent;
+	margin: 30px 0px 0px 140px;
+	width: 1100px;
+	border-radius: 10px; 
+	overflow:auto;
+	
+}
+
+.header{
+
+	width: 1100px;
+	height: 90px;
+	background-color: silver;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+
+
+}
+.logo{
+
+	float: left;
+	margin: 40px 0px 0px 30px;
+}
+
+
+
+.logo a {
+	 color: black;
+	text-decoration: none;
+}
+
+.logo a:hover {
+	color: black;
+}
+
+
+.displayname{
+
+
+	float: left;
+	margin: 55px 0px 0px 400px;
+}
+
+
+
+
+hr{
+
+	width: 1100px;
+	
+	
+}
+
+.nav{
+
+  width: 1100px;
+  height: 50px;
+  background-color: transparent;
+  border-bottom-left-radius: 10px; 
+  border-bottom-right-radius: 10px;
+
+}
+
+.nav ul{
+	border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+	margin: 0;
+	padding: 20px 0px 0px 0px;
+	height: 30px;
+	background-color: gold;
+  opacity: 0.7;
+
+
+
+}
+
+.nav ul li{
+	margin: 0px 20px 0px 20px;
+	display: inline;
+	
+}
+ .nav a{
+
+   text-decoration: none;
+   color: black;
+
+}
+
+.nav a:hover{
+
+  color: black;
+  font-weight: bold;
+}
+
+.maincontent{
+
+
+	width: 750px;
+	height: 500px;
+	background-color: silver;
+	margin: 30px 0px 30px 0px;
+    border-radius: 10px;
+    float: left;
+}
+
+
+.events{
+
+    width: 700px;
+	height: 400px;
+	margin: 20px 0px 0px 20px;
+	padding: 10px 0px 0px 20px;
+	overflow: scroll;
+	
+}
+
+.event-box{
+
+	background-color: black;
+	 height: 70px; 
+	 width: 150px;
+	  margin: 20px 20px 20px 20px;
+	   border-radius: 10px;
+	    float: left;
+	     color: white; 
+	     padding: 10px 0px 0px 20px;
+}
+
+
+
+.event-details-box{
+
+   width: 680px;
+   height: 430px;
+   background-color: black;
+   margin: 30px 0px 0px 30px;
+   border-radius: 10px;
+   padding: 20px 0px 0px 20px;
+   color: white;
+
+}
+
+
+.event-details-box input{
+
+	border-radius: 10px;
+	height: 25px;
+}
+
+.event-details-box p{
+
+	margin: 10px 0px 0px 80px;
+}
+
+
+.event-details-box button{
+	float: right;
+	margin: 20px 80px 0px 0px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+
+#span1{
+     
+      margin-left: 240px;
+     
+	}
+
+	#span2{
+     
+    margin-left: 245px;
+     
+	}
+
+
+	#span3{
+     
+   margin-left: 220px;
+     
+	}
+
+
+	#span4{
+     
+   margin-left: 167px;
+     
+	}
+
+	#span5{
+     
+margin-left: 183px;
+     
+	}
+
+	#span6{
+     
+margin-left: 240px;
+     
+	}
+
+
+		#span7{
+     
+      margin-left: 190px;
+     
+	}
+
+
+	#span8{
+     
+      margin-left: 250px;
+     
+	}
+
+	#span9{
+     
+      margin-left: 190px;
+     
+	}
+
+	#span10{
+     
+      margin-left: 240px;
+     
+	}
+
+
+	#span11{
+     
+      margin-left: 230px;
+     
+	}
+
+
+
+	#span12{
+     
+      margin-left: 160px;
+     
+	}
+
+
+
+
+.myevents{
+
+   width: 680px;
+   height: 430px;
+   background-color: transparent;
+   margin: 30px 0px 0px 30px;
+   border-radius: 10px;
+   padding: 20px 0px 0px 20px;
+   overflow: scroll;
+
+}
+
+.my-event-box{
+
+    width: 600px;
+    height: 60px;
+    background-color: black;
+    margin: 20px 0px 0px 30px;
+
+    border-radius: 10px;
+    padding-top: 30px;
+    color: white;
+   
+    
+}
+
+
+.my-event-name{
+
+      float: left;
+      margin-left: 20px;
+
+}
+
+.my-event-setting{
+
+      float: right;
+      margin-right: 20px;
+      
+}
+
+.my-event-setting a{
+text-decoration: none;
+ color: white;
+
+}
+
+.my-event-setting a:hover{
+    color: gold;
+
+	}
+
+
+.mymessages{
+
+   width: 680px;
+   height: 430px;
+   background-color: transparent;
+   margin: 30px 0px 0px 30px;
+   border-radius: 10px;
+   padding: 20px 0px 0px 20px;
+   overflow: scroll;
+
+}
+
+
+
+
+
+.aside{
+
+
+	width: 300px;
+	height: 500px;
+	border-radius: 10px;
+	background-color: transparent;
+	float: right;
+	margin: 30px 0px 30px 0px;
+}
+
+
+.contact{
+	background-color: gold;
+	width: 270px;
+	height: 430px;
+	margin: 30px 0px 0px 20px;
+	border-radius: 10px;
+	padding: 20px 0px 0px 0px;
+	text-align: center; 
+  opacity: 0.9;
+
+}
+
+.contact textarea, text{
+
+  border-radius: 6px;
+}
+
+.contact #subject1{
+  margin-bottom: 5px;
+  width: 130px;
+}
+
+.contact button, input{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 50px;
+  height: 25px;
+   border-radius: 6px;
+}
+
+
+
+.adminmessages{
+
+  background-color: gold;
+	width: 270px;
+	height: 430px;
+	margin: 30px 0px 0px 20px;
+	border-radius: 10px;
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+	overflow-y: scroll;
+  opacity: 0.7;
+
+}
+
+.adminmessages hr{
+
+	width: 270px;
+	margin-top: 10px;
+}
+
+.adminmessages a{
+
+  text-decoration: none;
+  color: red;
+}
+
+.adminmessages a:hover{
+    
+
+    font-weight: bold;
+
+
+  }
+
+
+.display-messages{
+
+    width: 200px;
+    height: 70px;
+    background-color: transparent;
+    margin: 20px 0px 0px 30px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+
+}
+
+
+.display-messages div{
+
+  
+  margin-left: -10px;
+   
+}
+
+
+
+
+
+
+.contact hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+	width: 270px;
+}
+
+
+
+.users-box{
+
+    width: 600px;
+    height: 40px;
+    background-color: black;
+    margin: 20px 0px 0px 30px;
+    border-radius: 10px;
+    padding-top: 20px;
+
+
+}
+
+.user-list{
+
+
+   width: 680px;
+   height: 430px;
+   background-color: transparent;
+   margin: 30px 0px 0px 30px;
+   border-radius: 10px;
+   padding: 20px 0px 0px 20px;
+   overflow: scroll;
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
+
+
+}
+
+.user-name{
+
+      float: left;
+      margin-left: 20px;
+      color: white;
+
+}
+
+
+.users-setting{
+
+	  float: right;
+      margin-right: 20px;
+}
+
+
+.user-list a{
+
+	text-decoration: none;
+	color: gold;
+}
+
+
+
+textarea{
+	resize: none;
+}
+
+
+
+
+
+
+.adminevent{
+
+  width: 680px;
+   height: 430px;
+   background-color: transparent;
+   margin: 30px 0px 0px 30px;
+   border-radius: 10px;
+   padding: 10px 0px 0px 30px;
+   overflow: scroll;
+   text-align: center;
+   border-width: 1px;
+   border-color: black;
+   border-style: solid;
+
+
+
+
+
+}
+
+
+.adminnav{
+
+
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 10px; 
+  
+  padding: 10px 0px 0px 0px;
+  position: fixed;
+  top: 230px;
+  margin-left: -20px;
+  margin-top: 10px;
+
+  
+
+}
+
+.adminnav li{
+
+
+	display: inline;
+}
+
+
+
+
+.userviewmessage{
+  
+   
+   width: 680px;
+   height: 430px;
+   background-color: transparent;
+   margin: 30px 0px 0px 30px;
+   border-radius: 10px;
+   padding: 20px 0px 0px 20px;
+   overflow: scroll;
+
+
+}
+
+.userviewmessage textarea{
+
+  border-radius: 10px;
+}
+
+
+
+
+
+
+.homepage{
+
+  margin-left: 15px;
+}
+
+.homepage h3{
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------ User registration Page*/ 
+
+
+.user-logo{
+
+	width: 1335px;
+	height: 60px;
+	background-color: silver;
+	padding: 30px 0px 0px 30px;
+
+}
+
+
+.user-login{
+
+     width: 500px;
+     height: 420px;
+     background-color: white;
+     margin: 50px 0px 0px 100px;
+     float: left;
+     border-color: black;
+     border-style: solid;
+     border-width: 3px;
+     border-radius: 10px;
+
+}
+
+
+.login{
+
+	width: 480px;
+	height: 30px;
+	background-color: ;
+	padding: 10px 0px 0px 20px;
+	border-radius: 10px;
+
+}
+
+.login-form{
+
+	background-color: ;
+	width: 380px;
+	height: 228px;
+	padding: 80px 0px 0px 120px;
+	border-radius: 10px;
+}
+
+
+.login-form input{
+
+
+    margin: 25px 0px 0px 20px;
+    height: 25px;
+    width: 200px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+
+.login-form button{
+
+    margin: 20px 0px 0px 20px;
+    height: 25px;
+    width: 80px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+
+
+.user-signup{
+
+	 width: 500px;
+     height: 420px;
+     background-color: white;
+     margin: 50px 0px 0px 100px;
+     float: left;
+     border-radius: 10px;
+     border-color: black;
+     border-style: solid;
+     border-width: 3px;
+}
+
+
+
+.signup{
+
+	width: 480px;
+	height: 30px;
+	background-color: ;
+	padding: 10px 0px 0px 20px;
+	border-radius: 10px;
+
+}
+
+.signup-form{
+
+
+    background-color:  ;
+	width: 430px;
+	height: 288px;
+	padding: 0px 0px 0px 70px;
+	border-radius: 10px;
+}
+
+
+.signup-form input{
+
+    margin: 20px 0px 0px 20px;
+    height: 25px;
+    width: 300px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+
+
+}
+
+.signup-form button{
+
+    margin: 20px 0px 0px 20px;
+    height: 25px;
+    width: 80px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+  
+ 
+
+}
+
+
+
+/*------------------------------------------------------------------------ Admin Login Page*/ 
+
+
+
+.admin-login{
+
+
+  
+     width: 500px;
+     height: 350px;
+     background-color: white;
+     margin: 100px 0px 0px 420px;
+     border-radius: 10px;
+     border-color: black;
+     border-style: solid;
+     border-width: 3px;
+
+
+}
+
+
+
+
+
+
+/*-------------------------Fonts--------------------*/
+
+
+h1 ,h2,h3,h4,h5,h6, p,a{
+
+
+  font-family: 'Russo One', sans-serif;
+}
+
+
+
+
+
+
+
+
+
